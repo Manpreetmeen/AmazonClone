@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Cloud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div id="amazonlogo"> </div>
+
+            <div class="font">
+                <i class="fa-brands fa-amazon" style="font-size: 56px; margin-left :-73px;"></i>
+            </div>
+
+
+            <div style="margin-right: 10px;">
+                <a href="#" style="color: white;">
+                    <div class="font">
+                          <i class="fa-solid fa-location-dot" style="font-size: 27px; margin-left: -30px;margin-top: 20px;"> </i>
+                    </div>
+                    <div>
+                        <p id="fixing" style="font-size: 20px; font-weight: 900; margin-top: -40px;">
+                            Deliver to </br> India
+                        </p>
+
+                    </div>
+
+                </a>
+            </div>
+
+            <div id="search-bar">
+                <select id="all" onmouseover="mouseOverAll()" onmouseout="mouseOutAll()">
+                    <option>All</option>
+                    <option>Washing Machine </option>
+                    <option>Acer Laptop</option>
+                    <option>Iphone 15 </option>
+                    <option>Samsung fold</option>
+                    <option>LED Tv </option>
+                    <option>Monitor</option>
+                    <option> Wireless Mouse </option>
+                    <option>Mac </option>
+                    <option>CPU </option>
+                    <option>I-Pad </option>
+                    <option>Airpods </option>
+                    <option>External keyboard </option>
+                </select>
+                <input id="srch" type="text" placeholder="Search Amazon" style="width: 500px;">
+                <div>
+                    <button onmouseover="mouseOver()" onmouseout="mouseOut()" id="glass">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="font" style="margin-left: 10px;">
+                Hello,
+                <a target="_blank" href="/SignUpproject/Signup2.html" style="color: white;">
+                    Sign in
+                </a>
+                <br>
+                <a href="#" style="color: white;"> Accounts & Lists</a>
+            </div>
+            <div>
+                <a href="#" style="color: white;"> Returns <br>
+                    <b> & Orders </b>
+                </a>
+            </div>
+            <div id="font1" onmouseover="mouseOverNav()" onmouseout="mouseOutNav()">
+                <a href="#" style="color: white;">
+                    <i class="fa-solid fa-cart-shopping" style="font-size: 2em;"></i>Cart
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="container">
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/whirlpool-7-5-kg-5-star-fully-automatic-top-load-washing-machine-whitemagic-elite-31370-lint-filter-grey-/p/221776">
+                        <img src="/photos/machine.webp" alt="Washing Machine" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> Washing Machine </p>
+                    </a>
+
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;"> Whirlpool 7.5 kg 5 Star Fully Automatic Top Load Washing Machine (Whitemagic Elite, 31370,
+                    Lint Filter, Grey)
+                </p>
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹16,790.00
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+                <p style="color:rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.bing.com/aclick?ld=e8HJhXs5mW637pdbdHYrRykTVUCUyY8bo2mLntWFR_3OwsyFH02v3HRLAoUjNWBPbf7zJGXuKrVrbG1sGe4jo7NeShZZpSg4INXyHbXnAOwS-hTm_MfTkgBG9c4XRHAcoq94qihKqqBoLAcRe4tdu_0yMeOvgyxASeupTz52jhcr03fuW_YTJmvlPvavHkGG0Ah3pWWQ&u=aHR0cHMlM2ElMmYlMmZ3d3cuY3JvbWEuY29tJTJmYWNlci1hc3BpcmUtNS1hNTE1LTU3Zy1pbnRlbC1jb3JlLWk1LTEydGgtZ2VuLTE1LTYtaW5jaC0xNmdiLTUxMmdiLXdpbmRvd3MtMTEtbXMtb2ZmaWNlLTIwMjEtbnZpZGlhLXJ0eC0yMDUwLWZoZC1pcHMtZGlzcGxheS1zdGVlbC1ncmF5LXVuLWs5dHNpLTAwMy0lMmZwJTJmMjYxMTcwJTNmdXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkcHMlMjZ1dG1fY2FtcGFpZ24lM2RTb2tfUE1heF9DYXRjaEFsbF9CaW5nJTI2bXNjbGtpZCUzZDFjYzRmMGE4NGY1ZDFmMzliZWJmOTUzZTAyMjhhNDI4JTI2dXRtX3Rlcm0lM2QyMzI0Nzc5ODk4NTczMjQ3JTI2dXRtX2NvbnRlbnQlM2REZWMlMjUyMFByb2R1Y3Rz&rlid=1cc4f0a84f5d1f39bebf953e0228a428">
+                        <img src="/photos/laptop.webp" alt="acer laptop" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> Acer Laptop </p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+            font-weight: 600;"> acer Aspire 5 A515-57G Intel Core i5 12th Gen (15.6 inch, 16GB, 512GB, Windows 11, MS
+                    Office 2021, NVIDIA RTX 2050, FHD IPS Display, Steel Gray, UN.K9TSI.003)</p>
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹56,999.00
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.bing.com/ck/a?!&&p=ad1cb581d5f50859JmltdHM9MTcwNDI0MDAwMCZpZ3VpZD0yOGZlNTgxNC01ZDk5LTY5OTEtMGE3OC00YmY5NWM5ZjY4YTMmaW5zaWQ9NTIwMw&ptn=3&ver=2&hsh=3&fclid=28fe5814-5d99-6991-0a78-4bf95c9f68a3&u=a1L3Nob3AvcHJvZHVjdHBhZ2U_cT1pcGhvbmUrMTUrcHJvJmZpbHRlcnM9c2NlbmFyaW8lM2ElMjIxNyUyMitnVHlwZSUzYSUyMjEyJTIyK2dJZCUzYSUyMjE2MTM0MDE0ODAyMCUyMitnSWRIYXNoJTNhJTIyMCUyMitnR2xvYmFsT2ZmZXJJZHMlM2ElMjIxNjEzNDAxNDgwMjAlMjIrQXVjQ29udGV4dEd1aWQlM2ElMjIwJTIyK0dyb3VwRW50aXR5SWQlM2ElMjIxNjEzNDAxNDgwMjAlMjIrTm9uU3BvbnNvcmVkT2ZmZXIlM2ElMjJUcnVlJTIyJnByb2R1Y3RwYWdlPXRydWUmRk9STT1TSFBQRFAmYnJvd3NlPXRydWU&ntb=1">
+                        <img src="/photos/iphone.webp" alt="iphone" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> Iphone 15 </p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+             font-weight: 600;"> Apple iPhone 15 Pro Max (White Titanium, 256 Gb, 0 Mah)
+                </p>
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹1,56,900.00
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/dell-68-58-cm-27-inch-full-hd-va-panel-lcd-3-sided-ultra-thin-bezel-height-adjustable-gaming-monitor-with-nvidia-g-sync-compatible/p/247820">
+                        <img src="/photos/monitor.webp" alt="monitor" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> Monitor </p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;"> Dell 68.58 cm (27 inch) Full HD VA Panel LCD 3-Sided Ultra Thin Bezel Height Adjustable
+                    Gaming Monitor with NVIDIA G-Sync Compatible
+                </p>
+
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹22,849.00
+
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/samsung-galaxy-z-flip4-5g-8gb-ram-256gb-blue-/p/260518">
+                        <img src="/photos/z fold.webp" alt="samsung fold" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> Samsung fold</p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;"> SAMSUNG Galaxy Z Flip4 5G (8GB RAM, 256GB, Blue)
+                </p>
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹84,999.00
+
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/lg-uq7500-108-cm-43-inch-4k-ultra-hd-led-webos-tv-with-gen5-ai-processor-4k/p/274582">
+                        <img src="/photos/tv.webp" alt="iphone" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> LED Tv </p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;"> LG UQ7500 108 cm (43 inch) 4K Ultra HD LED WebOS TV with Gen5 AI Processor 4K </p>
+
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹30,990.00
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/logitech-m186-wireless-optical-mouse-1000-dpi-smooth-cursor-control-black-/p/252054">
+                        <img src="/photos/mouse.webp" alt="mouse" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> Wireless Mouse </p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;">logitech M186 Wireless Optical Mouse (1000 DPI, Smooth Cursor Control, Black)
+                </p>
+
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹499.00
+
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/apple-macbook-air-2023-m2-15-inch-8gb-256gb-macos-space-grey-/p/273864">
+                        <img src="/photos/mac.webp" alt="mac" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> Mac</p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;"> Apple MacBook Air 2023 (M2, 15 inch, 8GB, 256GB, macOS, Space Grey)
+                </p>
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹125,900.00
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/apple-mac-mini-m2-mini-tower-8gb-256gb-ssd-apple-10-core-gpu-macos-silver-/p/268351">
+                        <img src="/photos/cpu.webp" alt="cpu" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> CPU </p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;"> Apple Mac Mini M2 Mini Tower (8GB, 256GB SSD, Apple 10-core GPU, macOS, Silver)
+                </p>
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹56,490.00
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/apple-ipad-air-5th-generation-wi-fi-10-9-inch-256gb-space-grey-2022-model-/p/264356">
+                        <img src="/photos/ipad.webp" alt="ipad" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> I-Pad </p>
+                    </a>
+
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;"> Apple iPad Air 5th Generation Wi-Fi (10.9 Inch, 256GB, Space Grey, 2022 model) </p>
+
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹72,999.00
+
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;font-size: 16px;
+          font-weight: 600;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/apple-airpods-pro-2nd-generation-usb-c-tws-earbuds-with-active-noise-cancellation-ip54-water-resistant-magsafe-case-white-/p/301165">
+                        <img src="/photos/airpods.webp" alt="airpods" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> Airpods</p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;"> Apple AirPods Pro (2nd Generation-USB C) TWS Earbuds with Active Noise Cancellation (IP54
+                    Water Resistant, MagSafe Case, White) </p>
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹22,980.00
+
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+
+
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+            <div>
+                <div class="div1">
+                    <a target="_blank"
+                        href="https://www.croma.com/lapcare-d-lite-mini-wired-keyboard-with-dedicated-multimedia-keys-spill-resistant-silver-/p/243038">
+                        <img src="/photos/keybrd.webp" alt="external keyboard" style="width: 200px;height: 200px;"> <br />
+                        <p class="one"> External keyboard </p>
+                    </a>
+                </div>
+                <p class="para" style="width: 280px; color: white;font-size: 14px;
+        font-weight: 600;"> LAPCARE D-Lite Mini Wired Keyboard with Dedicated Multimedia Keys (Spill Resistant, Silver)
+                </p>
+                <p style="color: yellow;font-size: 18px;margin-top: 5px;"> ₹435.00
+
+                <p style="color: white;font-size: 10px;"> (Incl. all Taxes) </p>
+                </p>
+                <p style="color: rgb(73, 238, 98); margin-top: 10px;"> Rating : 4.5</p>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <div
+        style="background-color: rgb(49, 82, 96);text-align: center;height: 60px; display: flex;justify-content: center;align-items: center;">
+        <button onclick="Headers" ; class="backtotop" type="button" style="background-color: transparent;border: none;">
+            Back to top </button>
+    </div>
+    <footer>
+
+        <div id="footer">
+
+
+
+            <div id="box1">
+                <ul class="list"> <b> Get to Know Us </b> <br /> <br>
+                    <a class="lists" href="#">
+                        <li> Careers</li>
+                        <li> Blog </li>
+                        <li> About Amazon </li>
+                        <li> Investor Relations </li>
+                        <li> Amazon Devices </li>
+                        <li> Amazon Science </li>
+                    </a>
+                </ul>
+            </div>
+            <div id="box2">
+                <ul class="list">
+                    <b> Make Money with Us </b> <br /> <br>
+                    <a class="lists" href="#">
+                        <li> Sell products on Amazon </li>
+                        <li> Sell on Amazon Business </li>
+                        <li> Sell apps on Amazon </li>
+                        <li> Become an Affiliateb </li>
+                        <li> Advertise Your Products </li>
+                        <li> Self-Publish with Us </li>
+                        <li> Host an Amazon Hub </li>
+                        <li> See More Make Money with Us </li>
+                    </a>
+                </ul>
+            </div>
+            <div id="box3">
+                <ul class="list"> <b> Amazon Payment Products </b> <br /> <br />
+                    <a class="lists" href="#">
+                        <li> Amazon Business Card </li>
+                        <li> Shop with Points </li>
+                        <li> Reload Your Balance </li>
+                        <li> Amazon Currency Converter </li>
+                    </a>
+                </ul>
+            </div>
+            <div id="box4">
+                <ul class="list">
+                    <b> Let Us Help You </b> <br /> <br />
+                    <a class="lists" href="#">
+                        <li> Amazon and COVID-19 </li>
+                        <li> Your Account </li>
+                        <li> Your Orders </li>
+                        <li> Shipping Rates & Policies </li>
+                        <li> Returns & Replacements </li>
+                        <li> Manage Your Content and Devices </li>
+                        <li> Amazon Assistant </li>
+                        <li> Help </li>
+                    </a>
+                </ul>
+            </div>
+
+
+        </div>
+        <div id="wrap">
+            <p>
+                <a href="#" style="color: white; text-decoration: underline;"> Conditions of use , </a>
+                <a href="#" style="color: white;text-decoration: underline;"> Privacy Notice , </a>
+                <a href="#" style="color: white;text-decoration: underline;"> Your Ads Privacy Choices</a>
+                <br />
+                1996-2024 Amazon.com, Inc. or its affiliates
+            </p>
+        </div>
+
+    </footer>
+    <script src="index.js"> </script>
+</body>
+
+</html>

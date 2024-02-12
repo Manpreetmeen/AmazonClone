@@ -1,0 +1,164 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #2a3439;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  height: 40px;
+  width: 900px;
+  margin-left: -200px;
+  margin-right: -200px;
+}
+font {
+  transform: scale(2);
+}
+
+#loc {
+  display: flex;
+  flex-direction: row;
+}
+#d {
+  margin-top: -15px;
+  margin-left: 3px;
+}
+#all {
+  text-align: center;
+  height: 40px;
+  width: 50px;
+  border: none;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+#srch {
+  height: 40px;
+  width: 800px;
+  border: none;
+}
+#glass {
+  background-color: rgb(237, 150, 43);
+  height: 40px;
+  width: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border: none;
+}
+
+#footer {
+  background-color: #536878;
+  bottom: 500px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  height: 300px;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+img {
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.list {
+  list-style-type: none;
+}
+#backtotop:hover {
+  background-color: #98c4e5;
+}
+#container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #2a3439;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.div1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: #708090;
+  border-radius: 20px;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
+.text {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  width: 300px;
+}
+#wrap {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+
+.list li {
+  color: white;
+}
+
+.list li:hover {
+  text-decoration: underline;
+}
+.font:hover {
+  text-decoration: underline;
+}
+.para {
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+.backtotop:hover {
+  background-color: white;
+}
